@@ -1,0 +1,9 @@
+FROM models/codellama-7b-instruct.Q4_K_M.gguf
+
+TEMPLATE "[INST] <<SYS>> {{ .System }} <</SYS>> {{ .Prompt }} [/INST]"
+PARAMETER rope_frequency_base 1e+06
+PARAMETER stop "[INST]"
+PARAMETER stop "[/INST]"
+PARAMETER stop "<<SYS>>"
+PARAMETER stop "<</SYS>>"
+SYSTEM "You are an intelligent coding assistant - CodyBot. Answer all the code related to the questions asked."

@@ -1,0 +1,6 @@
+transformers
+langchain
+langchain-community
+langchain-core
+langchain-experimental
+streamlit
