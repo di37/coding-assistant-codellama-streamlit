@@ -84,7 +84,7 @@ Once the code is ready, we can run the following command:
 streamlit run app.py
 ```
 
-Demo cane be seen her:
+Example of demo as follows:
 
 ![Screenshot 1](https://github.com/di37/coding-assistant-codellama-streamlit/blob/main/screenshots/screenshot_1.png?raw=true)
 ![Screenshot 2](https://github.com/di37/coding-assistant-codellama-streamlit/blob/main/screenshots/screenshot_2.png?raw=true)
