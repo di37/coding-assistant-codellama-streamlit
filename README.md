@@ -7,12 +7,13 @@ This project demonstrates how to create a personal code assistant using a local 
 - [Setting up the Environment](#setting-up-the-environment)
 - [Customizing and testing the model](#customizing-and-testing-the-model)
 - [Building UI-Langchain and Streamlit](#building-ui-langchain-and-streamlit)
+- [References](#references)
 
 ## Pre-requisites
 
 Before getting started, ensure that you have the following installed:
 - [Conda](https://docs.conda.io/en/latest/miniconda.html): Package and environment management system.
-- [Ollama](https://ollama.com/download): Platform that facilitates to make use of LLMs easily.
+- [Ollama](https://ollama.com/download): Software package that facilitates to make use of llms easily.
 
 Also for doing this project, it is good to have experience using OpenAI API using Langchain integration for getting done with it more faster. 
 
@@ -83,6 +84,10 @@ Once the code is ready, we can run the following command:
 streamlit run app.py
 ```
 
+Demo cane be seen her:
+
+![Screenshot 1](https://github.com/di37/coding-assistant-codellama-streamlit/blob/main/screenshots/screenshot_1.png?raw=true)
+![Screenshot 2](https://github.com/di37/coding-assistant-codellama-streamlit/blob/main/screenshots/screenshot_2.png?raw=true)
 
 
 ## References
