@@ -1,21 +1,21 @@
 # Personal Code Assistant - Ollama + Langchain + Streamlit
 
-This project demonstrates how to create a personal code assistant using a local open-source large language model (llm). We will utilize Codellama, a fine-tuned version of Llama specifically designed for coding tasks, along with Langchain and Streamlit to build a robust, interactive and user-friendly interface.
+This project demonstrates how to create a personal code assistant using a local open-source large language model (LLM). We will utilize Codellama, a fine-tuned version of Llama specifically developed for coding tasks, along with Ollama, Langchain and Streamlit to build a robust, interactive, and user-friendly interface.
 
 ## Table of Contents
-- [Pre-requisites](#pre-requisites)
+- [Prerequisites](#prerequisites)
 - [Setting up the Environment](#setting-up-the-environment)
-- [Customizing and testing the model](#customizing-and-testing-the-model)
-- [Building UI-Langchain and Streamlit](#building-ui-langchain-and-streamlit)
+- [Customizing and Testing the Model](#customizing-and-testing-the-model)
+- [Building UI with Langchain and Streamlit](#building-ui-with-langchain-and-streamlit)
 - [References](#references)
 
-## Pre-requisites
+## Prerequisites
 
 Before getting started, ensure that you have the following installed:
 - [Conda](https://docs.conda.io/en/latest/miniconda.html): Package and environment management system.
-- [Ollama](https://ollama.com/download): Software package that facilitates to make use of llms easily.
+- [Ollama](https://ollama.com/download): Software package that facilitates the use of LLMs easily.
 
-Also for doing this project, it is good to have experience using OpenAI API using Langchain integration for getting done with it more faster. 
+Also, for doing this project, it is good to have experience using OpenAI API with Langchain integration for getting it done faster. 
 
 ## Setting up the Environment
 
@@ -73,7 +73,7 @@ ollama run codybot
 
 Once we are satisfied with the behavior of how model is responding, we will proceed ahead.
 
-## Building UI-Langchain and Streamlit
+## Building and Running the Application - Langchain + Streamlit
 
 - Langchain provides wrapper to access local models - `ChatOllama` which can be used in the same way as `ChatOpenAI` module.
 - `utils` folder includes all of the helper functions (`helper.py`), and commonly used libraries (`common_libraries.py`) organized. Prompt template(s) and other environment variable(s) (if used) are included `constants.py` folder.
